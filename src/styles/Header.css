@@ -1,0 +1,103 @@
+.header-content {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.header-first-content {
+  align-items: center;
+  display: flex;
+}
+
+.header-second-content {
+  align-items: center;
+  display: flex;
+  margin-right: 20px;
+}
+
+.header-anchors-content {
+  display: flex;
+  justify-content: center;
+  margin-left: 55px;
+}
+
+.header-anchor {
+  color: #3D3D3D;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 2.0rem;
+  margin-right: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.first {
+  min-width: 165px;
+}
+
+.second {
+  min-width: 98px;
+}
+
+.third {
+  min-width: 63px;
+}
+
+.logo {
+  margin-left: 16px;
+}
+
+.become-nanny-button {
+  background-color: #00A870;
+  border-radius: 4px;
+  border: none;
+  color: #ffffff;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  height: 44px;
+  margin-right: 16px;
+  min-width: 234px;
+}
+
+.become-nanny-button:hover {
+  cursor: pointer;
+}
+
+.sign-in-button {
+  background-color: transparent;
+  border: none;
+  color: #3D3D3D;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  height: 44px;
+  margin-right: 16px;
+  min-width: 50px;
+}
+
+.sign-in-button:hover {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 767px) {
+  .header-content {
+    justify-content: space-between;
+  }
+
+  .header-second-content {
+    margin: 0;
+  }
+
+  .header-anchors-content {
+    display: none;
+  }
+
+  .sign-in-button {
+    display: none;
+  }
+}
+

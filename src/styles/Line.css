@@ -1,0 +1,12 @@
+.line {
+  border-top: 2px solid #DFDFDF;
+  width: 40vw;
+  margin: 0;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .line {
+    width: 90vw;
+  }
+}

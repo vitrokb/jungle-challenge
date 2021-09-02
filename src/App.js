@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+/* eslint-disable max-len */
+/* eslint-disable import/extensions */
+import React from 'react';
+import AvailableNany from './components/AvailableNany.jsx';
+import Hero from './components/Hero.jsx';
+import ShareArticle from './components/ShareArticle.jsx';
+import News from './components/News.jsx';
+import SharedPayments from './components/SharedPayments.jsx';
+import FrameworkArticle from './components/FrameworkArticle.jsx';
+import CoomingSoon from './components/CoomingSoon.jsx';
+import Footer from './components/Footer.jsx';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Hero />
+      <AvailableNany />
+      <ShareArticle />
+      <News />
+      <SharedPayments />
+      <FrameworkArticle />
+      <CoomingSoon />
+      <Footer />
+    </>
   );
 }
 

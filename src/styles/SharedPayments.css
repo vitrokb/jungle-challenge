@@ -1,0 +1,108 @@
+.shared-payments-line-content {
+  align-items: center;
+  background-color: #FAF9F7;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.shared-payments-content {
+  display: flex;
+  justify-content: center;
+  padding: 96px 0;
+}
+
+.shared-payments-image-content {
+  margin-right: 44px;
+}
+
+.shared-payments-image {
+  height: 336px;
+  width: 456px;
+}
+
+.shared-payments-title {
+  color: #3D3D3D;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-size: 2.8rem;
+  font-weight: 600;
+  line-height: 3.2rem;
+  margin-bottom: 0;
+  margin-top: 0;
+  text-align: left;
+  width: 411px;
+}
+
+.shared-payments-paragraph {
+  color: #3D3D3D;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 2.8rem;
+  margin: 16px 0;
+  text-align: left;
+  width: 484px;
+}
+
+.shared-payments-anchor {
+  color: #5E20A4;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 2.4rem;
+  margin-top: 8px;
+  text-align: left;
+  width: 435px;
+}
+
+@media only screen and (max-width: 768px) {
+  .shared-payments-content {
+    align-items: center;
+    background-color: #FAF9F7;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 64px 0;
+  }
+
+  .shared-payments-image-content {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .shared-payments-text-content {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .shared-payments-image {
+    height: 230px;
+    width: 312px;
+  }
+
+  .shared-payments-title {
+    font-size: 2.2rem;
+    margin-top: 40px;
+    text-align: center;
+    width: 218px;
+  }
+
+  .shared-payments-paragraph {
+    line-height: 2.4rem;
+    text-align: center;
+    width: 328px;
+  }
+
+  .shared-payments-anchor {
+    text-align: center;
+    width: 328px;
+  }
+}
