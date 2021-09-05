@@ -1,5 +1,4 @@
 /* eslint-disable max-len */
-/* eslint-disable import/extensions */
 import React from 'react';
 import logo from '../images/logo.svg';
 import '../styles/Header.css';

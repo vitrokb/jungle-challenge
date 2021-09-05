@@ -1,5 +1,4 @@
 /* eslint-disable max-len */
-/* eslint-disable import/extensions */
 import React, { useState } from 'react';
 import '../styles/Footer.css';
 import calendarIcon from '../images/calendar-icon.svg';

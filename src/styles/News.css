@@ -60,6 +60,10 @@
   width: 96px;
 }
 
+.form-button:hover {
+  cursor: pointer;
+}
+
 @media only screen and (max-width: 768px) {
   .news-title {
     width: 328px;

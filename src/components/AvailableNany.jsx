@@ -1,5 +1,4 @@
 /* eslint-disable max-len */
-/* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import '../styles/AvailableNany.css';
 import availableIcon from '../images/available-nany-icon.svg';

@@ -1,5 +1,4 @@
 /* eslint-disable max-len */
-/* eslint-disable import/extensions */
 import React from 'react';
 import '../styles/HeroContent.css';
 import playIcon from '../images/play-icon.svg';

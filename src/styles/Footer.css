@@ -43,6 +43,10 @@
   width: 304px;
 }
 
+.footer-button-content:hover {
+  cursor: pointer;
+}
+
 .footer-button-first-paragraph {
   color: #FFFFFF;
   font-family: 'Inter', sans-serif;
