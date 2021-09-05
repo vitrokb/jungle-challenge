@@ -34,6 +34,11 @@ function News() {
     })
       .then((response) => {
         console.log(response.data);
+        setName('');
+        setEmail('');
+      })
+      .catch((error) => {
+        console.log(error);
       });
   }
 
@@ -42,8 +47,8 @@ function News() {
       <h3 className="news-title">Are you a parent without a nanny and looking to share?</h3>
       <p className="news-paragraph">Leave us your name and email and we’ll update you as soon as a share becomes available in your area!</p>
       <form className="news-form">
-        <input className="form-input" name="name" onChange={ handleChange } type="text" placeholder="Your name" />
-        <input className="form-input" name="email" onChange={ handleChange } type="email" placeholder="Your email" />
+        <input className="form-input" name="name" onChange={ handleChange } value={ name } type="text" placeholder="Your name" />
+        <input className="form-input" name="email" onChange={ handleChange } value={ email } type="email" placeholder="Your email" />
         <button className="form-button" onClick={ sendUser } type="button">Send</button>
       </form>
       <Line />
